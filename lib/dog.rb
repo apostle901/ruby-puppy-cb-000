@@ -1,5 +1,3 @@
-require 'pry'
-
 class Dog
   attr_accessor :name
   @@all = []
@@ -18,7 +16,6 @@ class Dog
   end
 
   def new(dog)
-    binding.pry
     self.name = dog
     @@all << dog.name
   end
