@@ -16,4 +16,8 @@ class Dog
   def new(dog)
     @@all << dog
   end
+
+  def name
+    self
+  end
 end
