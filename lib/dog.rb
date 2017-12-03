@@ -10,7 +10,7 @@ class Dog
   end
 
   def self.all
-    @@all
+    puts @@all
   end
 
   def new(dog)
@@ -18,5 +18,6 @@ class Dog
   end
 
   def name
+    self
   end
 end
