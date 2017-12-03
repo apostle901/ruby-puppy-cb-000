@@ -1,3 +1,5 @@
+require pry
+
 class Dog
   attr_accessor :name
   @@all = []
@@ -18,5 +20,6 @@ class Dog
   def new(dog)
     self.name = dog
     @@all << dog.name
+    binding.pry
   end
 end
