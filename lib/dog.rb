@@ -18,8 +18,8 @@ class Dog
   end
 
   def new(dog)
+    binding.pry
     self.name = dog
     @@all << dog.name
-    binding.pry
   end
 end
