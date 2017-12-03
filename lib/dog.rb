@@ -2,13 +2,14 @@ class Dog
   @@all = []
 
   def initialize(dog)
+    @@all < dog
   end
 
-  def clear_all
+  def self.clear_all
     @@all = []
   end
 
-  def all?
+  def self.all
     @@all
   end
 
